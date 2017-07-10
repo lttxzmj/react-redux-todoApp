@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import TodoList from './components/todo-list.jsx';
+import App from './components/app.jsx';
 
 render(
-  <TodoList /> ,
+  <App /> ,
   document.getElementById('root')
   )
