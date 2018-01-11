@@ -1,14 +1,5 @@
 import React, { PropTypes } from 'react'
 import Todo from './todo.jsx'
-
-<<<<<<< HEAD:src/components/app.jsx
-export default class App extends React.Component {
-  render(){
-    return(
-      <div> hello world </div>
-        )
-  }
-=======
 const TodoList = ({ todos, onTodoClick }) => (
   <ul>
     {todos.map(todo =>
@@ -28,7 +19,6 @@ TodoList.propTypes = {
     text: PropTypes.string.isRequired
   }).isRequired).isRequired,
   onTodoClick: PropTypes.func.isRequired
->>>>>>> master:src/components/todo-list.jsx
 }
 
 export default TodoList
