@@ -23,8 +23,12 @@
     "font-awesome": "^4.7.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+<<<<<<< HEAD
     "react-redux": "^5.0.5",
     "redux": "^3.7.1"
+=======
+    "react-redux": "^5.0.5"
+>>>>>>> master
   },
   "devDependencies": {
     "babel-loader": "^7.0.0",
